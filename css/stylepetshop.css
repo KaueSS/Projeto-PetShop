@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    
+    background-image: url('../img/fundo-topo.jpg');
+    text-align: center;
+    
+}
+nav{
+    text-align: center;
+    padding: 15px 0;
+}
+nav li{
+    display: inline;
+    background-image: url('../img/patinha-preta.png');
+    background-repeat: no-repeat;
+    background-position: center right;
+    margin-right: 10px;
+    padding-right: 28px;
+    font-size: 1.2em;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+nav a:hover{
+    color: #6dd432;
+    text-decoration: underline;
+}
+/*#itemcontato{
+    background-image:none;
+}*/
+.bg_green{
+    background-color: #6dd43293;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+
+}
+.conteiner{
+    margin: 0 auto;
+    width: 900px;
+    padding: 56px 0;
+}
+.center{
+    width: 400px;
+    text-align: justify;
+    font-size: 1.2em;
+    margin-right: 40px;
+}
+figure{
+    border: 1px solid rgba(0, 0, 0, 0.247);
+    width: 250px;
+    height: 155px;
+    text-align: center;
+    
+    
+}
+figure img{
+    text-align: center;
+    vertical-align: middle;
+}
+
+button{
+    background-color: #d2fbbd;
+    border: 1px solid rgba(115, 238, 115, 0.815);
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 2px;
+}
+button:hover{
+    background-color: #6dd43596;
+    color: rgb(6, 151, 151);
+    cursor: pointer;
+
+}
+
+/*::after
+::before
+*/
+.centerr{
+    width: 400px;
+    text-align: justify;
+    font-size: 1.2em;
+    margin-right: 81px;
+}
+.col{
+    width: 193px;
+    text-align: justify;
+    font-size: 1.2em;
+
+}
+form{
+    width: 380px;
+    
+}
+form input,
+form textarea{
+    width: 100%;
+    border: 1px solid #6dd432;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+iframe{
+    width: 380;
+}
+.final{
+    text-align: center;
+}
+hr{
+    border: 1px solid #6dd432;
+    margin-bottom: 10px;
+}
+
+/*Line-height é usado para aumentar o tamanho da linha de todo o elemento.*/
